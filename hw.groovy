@@ -1,6 +1,6 @@
 #!/usr/bin/ env groovy
 
-job('Pega/Devops/ExampleOne') {
+job('JobHelloWorld') {
   steps {
     shell('echo Hello World From ExampleOne!')
   }

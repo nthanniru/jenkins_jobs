@@ -1,4 +1,4 @@
-job('Pega/Devops/JobTwo') {
+job('JobTwo') {
   steps {
     shell('echo Hello World From ExampleOne!')
   }

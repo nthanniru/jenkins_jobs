@@ -6,7 +6,7 @@ job('Pega/Devops/ParamsJob') {
             choiceType('SINGLE_SELECT')
             groovyScript {
                 script('["Prod", "Nono-Prod"]')
-                fallbackScript('"fallback choice"')
+                //('"fallback choice"')
             }
         }
     }

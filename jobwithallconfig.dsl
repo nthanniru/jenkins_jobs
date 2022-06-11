@@ -11,9 +11,9 @@ pipelineJob('Pega/Devops/allconfigJob'){
 
  }
  description('Job to create infrastructure')  // To mention Job description
- logRotator { numToKeep(10)    //Max number of builds to keep
-              /*setNumToKeep(20)
-              getNumToKeep(30)
+ logRotator { numToKeep(10),setNumToKeep(20)    //Max number of builds to keep
+              
+              /*getNumToKeep(30)
               daysToKeep(40)*/
               }
              //getNumToKeep(), setNumToKeep(int), numToKeep(int), getDaysToKeep(), setDaysToKeep(in  

@@ -1,12 +1,12 @@
-job('Pega/Devops/ParamsJob') {
+job('example123') {
     parameters {
-        activeChoiceParam('Select Environment') {
+        activeChoiceParam('CHOICE-1') {
             description('Allows user choose from multiple choices')
             filterable()
             choiceType('SINGLE_SELECT')
             groovyScript {
-                script('["Prod", "Nono-Prod"]')
-                //('"fallback choice"')
+                script('["choice1", "choice2"]')
+                fallbackScript('"fallback choice"')
             }
         }
     }

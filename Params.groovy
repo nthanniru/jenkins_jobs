@@ -1,4 +1,4 @@
-job('ParamsJob') {
+job('Pega/Devops/ParamsJob') {
     parameters {
         activeChoiceParam('Select Environment') {
             description('Allows user choose from multiple choices')

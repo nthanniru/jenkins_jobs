@@ -1,5 +1,5 @@
-def NTHANNIRU_SCRIPTS_REPO= ''
-pipelineJob{
+//def NTHANNIRU_SCRIPTS_REPO= ''   variables declration
+pipelineJob('Pega/Devops/allconfigJob'){
  parameters{    // Block to declare parameters
 
     stringParam('Node_Name','Infra_New','Please Enter the node name where job sholud run')

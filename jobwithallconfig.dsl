@@ -6,7 +6,7 @@ pipelineJob('Pega/Devops/allconfigJob'){
     stringParam('Infra_Branch','master','Please Enter the infra branch name')
     stringParam('Params_Branch','master','Please Enter the params branch name')
 
-    choiceParam('Environment','["dev","qa","spt","sit","stg","prf"]','Please Enter The Environment Name')
+    choiceParam('Environment',["dev","qa","spt","sit","stg","prf"],'Please Enter The Environment Name')
     stringParam('Environment Number','','Environment Number e.g 1')
 
  }

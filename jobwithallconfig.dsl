@@ -16,7 +16,7 @@ pipelineJob('Pega/Devops/allconfigJob'){
               getNumToKeep(30)
               daysToKeep(40)
               }
-             //numToKeep(int), setNumToKeep(int), getNumToKeep(), daysToKeep(int)}   
+             //getNumToKeep(), setNumToKeep(int), numToKeep(int), getDaysToKeep(), setDaysToKeep(in  
 
  definition {
     cpsScm {

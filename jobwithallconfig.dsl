@@ -21,7 +21,7 @@ pipelineJob('Pega/Devops/allconfigJob'){
             url('https://github.com/jenkinsci/job-dsl-plugin.git')
           }
           branch('*/master')  //On which brach build should be triggered
-          scriptPath()   //Jenkins script path
+          scriptPath('pega/xx/Jenkinsfile')   //Jenkins script path
         }
       }
       lightweight()

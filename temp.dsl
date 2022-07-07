@@ -4,7 +4,7 @@ pipeline {
     stage('Source') {
       steps {
         //git 'https://github.com/digitalvarys/jenkins-tutorials.git'
-        echo "Hello World...Stage1"
+        echo "Hello World...Stage...1"
       }
     }
     

@@ -1,18 +1,12 @@
 pipeline {
-  agent { label 'node-1' }
+  agent any
   stages {
     stage('Source') {
       steps {
-        git 'https://github.com/digitalvarys/jenkins-tutorials.git''
+        //git 'https://github.com/digitalvarys/jenkins-tutorials.git'
+        echo "Hello World...Stage1"
       }
     }
-    stage('Compile') {
-      tools {
-        gradle 'gradle4'
-      }
-      steps {
-        sh 'gradle clean compileJava test'
-      }
-    }
+    
   }
 }

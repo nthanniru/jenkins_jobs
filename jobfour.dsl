@@ -1,5 +1,5 @@
 pipelineJob('Pega/Testing/Vinaytesting1'){
-    agent any
+    //agent any
     stages {
         stage('Welcome Step') {
             steps { 

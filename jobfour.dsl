@@ -1,4 +1,4 @@
-pipelinejob ('Pega/Testing/Vinaytesting1'){
+pipelineJob('Pega/Testing/Vinaytesting1'){
     agent any
     stages {
         stage('Welcome Step') {
